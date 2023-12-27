@@ -1,0 +1,14 @@
+package Task;
+import java.util.Scanner;
+//Tasksheet1-1-5
+public class Main{
+    public static void main(String[] args) {
+        String input = "SOS";
+        StringBuilder reversedInput = new StringBuilder(input).reverse();
+        if (input.equals(reversedInput.toString())) {
+            System.out.println("The input string is a palindrome.");
+        } else {
+            System.out.println("The input string is not a palindrome.");
+        }
+    }
+}
